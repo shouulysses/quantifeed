@@ -1,0 +1,26 @@
+{
+  "name": "fixtocsv",
+  "version": "1.0.0",
+  "description": "To translate fix to csv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf lib/ && babel ./src --out-dir lib/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
+    "start": "npm run build && node lib/index.js"
+  },
+  "author": "Ivan Ho",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0"
+  }
+}
