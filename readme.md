@@ -24,10 +24,10 @@ showExectuionOnly: Set as true to show only execution report messages
 
 outFields:
 
-    header: CSV header name to be shown on the csv
+- header: CSV header name to be shown on the csv
 
-    tag: The tag number of the FIX for the data wanted
+- tag: The tag number of the FIX for the data wanted
 
-    show: Set as true to make the field available in the csv
+- show: Set as true to make the field available in the csv
 
 
