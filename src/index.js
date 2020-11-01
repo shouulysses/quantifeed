@@ -60,8 +60,6 @@ const fixToCsv = (config, tags) => {
     fs.writeFileSync(config.outputFile, excelOutput, (err) => {
         if (err) return console.log(err);
     })
-
-   // console.log("T//ags", tags[0]);
 }
 
 fixToCsv(config, tags);
