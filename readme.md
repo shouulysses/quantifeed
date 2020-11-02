@@ -12,6 +12,14 @@ npm install
 npm run start
 ````
 
+**Files explained**
+
+index.js: main application
+
+config.js: configurable config file for turning FIX logs into CSV
+
+tags.js: a file storing FIX tags
+
 **Config file explained**
 
 inputFile: The location of the log file to be extracted
